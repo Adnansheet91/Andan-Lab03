@@ -1,20 +1,18 @@
 {
-  "name": "client",
+  "name": "server",
   "version": "1.0.0",
   "description": "",
-  "main": "client.js",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node client.js"
+    "start": "node server.js",
+    "dev": "nodemon server.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "axios": "^0.27.2",
-    "ejs": "^3.1.8",
     "express": "^4.18.1",
-    "nodemon": "^2.0.16",
-    "path": "^0.12.7"
+    "nodemon": "^2.0.16"
   }
 }
